@@ -65,7 +65,7 @@
             // loginToolStripMenuItem
             // 
             this.loginToolStripMenuItem.Name = "loginToolStripMenuItem";
-            this.loginToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.loginToolStripMenuItem.Size = new System.Drawing.Size(122, 22);
             this.loginToolStripMenuItem.Text = "Login";
             this.loginToolStripMenuItem.Click += new System.EventHandler(this.loginToolStripMenuItem_Click);
             // 
@@ -73,17 +73,18 @@
             // 
             this.mnuDatabase.Enabled = false;
             this.mnuDatabase.Name = "mnuDatabase";
-            this.mnuDatabase.Size = new System.Drawing.Size(152, 22);
+            this.mnuDatabase.Size = new System.Drawing.Size(122, 22);
             this.mnuDatabase.Text = "Database";
             // 
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(122, 22);
             this.exitToolStripMenuItem.Text = "Exit";
             // 
             // mnuInputData
             // 
+            this.mnuInputData.Enabled = false;
             this.mnuInputData.Name = "mnuInputData";
             this.mnuInputData.Size = new System.Drawing.Size(74, 20);
             this.mnuInputData.Text = "Input Data";

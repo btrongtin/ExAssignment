@@ -25,17 +25,14 @@ namespace ExAssignment
             if (txtName.Text == name && txtPass.Text == pass)
             {
                 MessageBox.Show("Bạn đã đăng nhập thành công");
-                this.Close();
                 
-                try
-                {
-                    fMain f = (fMain)this.Owner;
-                    f.mnuSearch.Enabled = true;
-                    f.mnuInputData.Enabled = true;
-                }
-                catch { }
-                
+                fMain f = (fMain)this.MdiParent;
 
+                f.mnuSearch.Enabled = true;
+
+                f.mnuInputData.Enabled = true;
+
+                Close();
             }
             else
             {

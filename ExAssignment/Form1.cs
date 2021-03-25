@@ -28,7 +28,6 @@ namespace ExAssignment
         private void fMain_Load(object sender, EventArgs e)
         {
             fLogin f = new fLogin();
-            f.Owner = this;
             f.MdiParent = this;
             f.Show();
         }
